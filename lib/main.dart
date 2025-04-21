@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Favorites',
+      title: 'Flutter Favoriler -Erciyes University Mobile Development Vize Ödevi 1030510302 ',
       theme: ThemeData(
         primarySwatch: Colors.blue,
         useMaterial3: true,
@@ -48,8 +48,8 @@ class _HomePageState extends State<HomePage> {
       length: 2,
       child: Scaffold(
         appBar: AppBar(
-          title: const Text('Flutter Favoriler'),
-          bottom: const TabBar(
+          title: const Text('Flutter Favoriler -Erciyes University Mobile Development Vize Ödevi 1030510302'),
+          bottom: const TabBar( 
             tabs: [
               Tab(icon: Icon(Icons.list), text: 'Tüm Öğeler'),
               Tab(icon: Icon(Icons.favorite), text: 'Favoriler'),
